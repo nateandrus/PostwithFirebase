@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		EDF94655220B6601001C664C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF94654220B6601001C664C /* AppDelegate.swift */; };
-		EDF94657220B6601001C664C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF94656220B6601001C664C /* ViewController.swift */; };
 		EDF9465A220B6601001C664C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF94658220B6601001C664C /* Main.storyboard */; };
 		EDF9465C220B6603001C664C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF9465B220B6603001C664C /* Assets.xcassets */; };
 		EDF9465F220B6603001C664C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF9465D220B6603001C664C /* LaunchScreen.storyboard */; };
+		EDF94667220B665D001C664C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF94666220B665D001C664C /* Post.swift */; };
+		EDF94669220B6711001C664C /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF94668220B6711001C664C /* PostController.swift */; };
+		EDF9466B220B71EF001C664C /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9466A220B71EF001C664C /* PostsViewController.swift */; };
+		EDF9466D220B744C001C664C /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9466C220B744C001C664C /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDF94651220B6601001C664C /* PostProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF94654220B6601001C664C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDF94656220B6601001C664C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDF94659220B6601001C664C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDF9465B220B6603001C664C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF9465E220B6603001C664C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF94660220B6603001C664C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF94666220B665D001C664C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		EDF94668220B6711001C664C /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		EDF9466A220B71EF001C664C /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		EDF9466C220B744C001C664C /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				EDF94654220B6601001C664C /* AppDelegate.swift */,
-				EDF94656220B6601001C664C /* ViewController.swift */,
 				EDF94658220B6601001C664C /* Main.storyboard */,
+				EDF9466C220B744C001C664C /* PostTableViewCell.swift */,
+				EDF9466A220B71EF001C664C /* PostsViewController.swift */,
 				EDF9465B220B6603001C664C /* Assets.xcassets */,
 				EDF9465D220B6603001C664C /* LaunchScreen.storyboard */,
+				EDF94666220B665D001C664C /* Post.swift */,
+				EDF94668220B6711001C664C /* PostController.swift */,
 				EDF94660220B6603001C664C /* Info.plist */,
 			);
 			path = PostProject;
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF94657220B6601001C664C /* ViewController.swift in Sources */,
+				EDF9466B220B71EF001C664C /* PostsViewController.swift in Sources */,
 				EDF94655220B6601001C664C /* AppDelegate.swift in Sources */,
+				EDF9466D220B744C001C664C /* PostTableViewCell.swift in Sources */,
+				EDF94667220B665D001C664C /* Post.swift in Sources */,
+				EDF94669220B6711001C664C /* PostController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
